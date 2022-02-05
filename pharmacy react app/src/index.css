@@ -1,0 +1,47 @@
+/* add app wide css here*/
+
+html, 
+body {
+    height: 100%;
+}
+
+td, th {
+  vertical-align: middle !important;
+}
+
+.card {
+  border: 2px solid rgba(0, 0, 0, 0.125) !important;
+}
+
+#root {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  height: 100%;
+  overflow: auto;
+}
+
+a {
+  cursor: pointer;
+}
+
+.loginCardContainer {
+  width: 45%;
+ 
+  margin-left: auto;
+  margin-right: auto; 
+}
+
+.linkContainer {
+  padding: 20px;
+}
+
+.addCardContainer{
+  width: 45%;
+  height:30%;  
+  margin-left: auto;
+  margin-right: auto; 
+}
+
