@@ -1,0 +1,32 @@
+{
+  "name": "user-service",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Shannon-Silva/pharmacy-management-system/user-service.git"
+  },
+  "author": "IT16036758 ARS Silva",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Shannon-Silva/pharmacy-management-system/user-service/issues"
+  },
+  "homepage": "https://github.com/Shannon-Silva/pharmacy-management-system/user-service#readme",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.4",
+    "express": "^4.16.3",
+    "jsonwebtoken": "^8.3.0",
+    "mongoose": "^5.1.5",
+    "morgan": "^1.9.0"
+  },
+  "engines": {
+    "node": "9.4.0"
+  }
+}
